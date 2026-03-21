@@ -25,6 +25,7 @@ public class EmployeeController {
 		return ResponseEntity.ok(employeeService.save(employee));
 	}
 
+	
 	@GetMapping("/findall")
 	public ResponseEntity<List<Employee>> findAll() {
 		return ResponseEntity.ok(employeeService.findAll());
