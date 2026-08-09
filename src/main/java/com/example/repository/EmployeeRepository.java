@@ -1,9 +1,9 @@
-package com.fullstack.repository;
+package com.example.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.fullstack.model.Employee;
+import com.example.model.Employee;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer>{

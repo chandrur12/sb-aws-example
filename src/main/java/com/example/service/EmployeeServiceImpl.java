@@ -1,12 +1,12 @@
-package com.fullstack.service;
+package com.example.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fullstack.model.Employee;
-import com.fullstack.repository.EmployeeRepository;
+import com.example.model.Employee;
+import com.example.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements IEmployeeService {

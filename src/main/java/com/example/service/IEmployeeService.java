@@ -1,8 +1,8 @@
-package com.fullstack.service;
+package com.example.service;
 
 import java.util.List;
 
-import com.fullstack.model.Employee;
+import com.example.model.Employee;
 
 public interface IEmployeeService {
 	
